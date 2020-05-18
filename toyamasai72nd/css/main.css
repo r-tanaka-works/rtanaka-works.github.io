@@ -1,0 +1,151 @@
+body{ margin:0; padding:0; width:100vw; height:180vw; }
+.g-top{	text-align: center; font-size: 1.2em; color: #5D5D5E; width:100vw; height:180vw; overflow:hidden;}
+
+.g-cd {	position: absolute; top: 66vw; width: 90vw; margin: 0 5vw; padding: 2px 0; 
+	z-index:2; font-size: 1.2em; font-weight: 700; animation: timer 10s }
+
+.cd-time { display: block; font-size: 1.6em;} 
+
+.circle { display: -webkit-box; display: flex; -webkit-box-pack: center;
+	justify-content: center; -webkit-box-align: center; align-items: center; border-radius: 50%;
+	z-index: 3; font-size: 1.1em; box-shadow: 0px 0px 4px 1px #ddd; }
+
+.circle-a { text-decoration: none; color: #fff; }
+
+.g-c1{
+	position:absolute;
+	top:0;
+	left:0;
+	width:50vw;
+	height:90vw;
+	margin:0;
+	animation:pop1 10s;
+}
+.g-c2{
+	position:absolute;
+	top:0;
+	left:50vw;
+	width:50vw;
+	height:90vw;
+	margin:0;
+	animation:pop1 10s;
+}
+.g-c3{
+	position:absolute;
+	top:90vw;
+	left:0;
+	width:50vw;
+	height:90vw;
+	margin:0;
+	animation:pop1 10s;
+}
+.g-c4{
+	position:absolute;
+	top:90vw;
+	left:28.5vw;
+	width:43vw;
+	height:90vw;
+	margin:0;
+	animation:pop1 10s;
+}
+.g-c5{
+	position:absolute;
+	top:90vw;
+	left:50vw;
+	width:50vw;
+	height:90vw;
+	margin:0;
+	animation:pop1 10s;
+}
+.c1 {
+	width: 45vw;
+	height: 45vw;
+	margin:13vh 0 0 2vw;
+	background: #e24e42;
+}
+
+.c2 {
+	width: 40vw;
+	height: 40vw;
+	margin:3vh 0 0 5vw;
+	background: #e9b000;
+}
+
+.c3 {
+	width: 40vw;
+	height: 40vw;
+	margin:0 0 0 4vw;
+	background: #eb6e80;
+}
+
+.c4 {
+	width: 43vw;
+	height: 43vw;
+	margin-top:35vh;
+	background: #008f95;
+}
+
+.c5 {
+	width: 37vw;
+	height: 37vw;
+	margin:6vh 0 0 8vw;
+	background: #9bcae6;
+}
+
+@media(min-width:800px){
+	body{
+		height:100vh;
+	}
+	.g-top{
+		height:100vh;
+		overflow:hidden;
+	}
+	.g-c1{
+		padding-left:10vw;
+	}
+	.g-c2{
+		padding-left:13vw;
+	}
+	.g-c3{
+		top:35vw;
+		padding-left:4vw;
+	}
+	.g-c4{
+		top:26vw;
+		padding-left:10vw;
+	}
+	.g-c5{
+		top:32vw;
+		padding-left:13vw;
+	}
+	.c1{
+		width:20vw;
+		height:20vw;
+		margin-top:3vw;
+	}
+	.c2{
+		width:20vw;
+		height:20vw;
+		margin-top:4vw;
+	}
+	.c3{
+		width:20vw;
+		height:20vw;
+	}
+	.c4{
+		width:20vw;
+		height:20vw;
+	}
+	.c5{
+		width:20vw;
+		height:20vw;
+	}
+	.g-cd {
+		top: 26vw;
+		height:12vw;
+		font-size:3vw;
+		width:44vw;
+		margin:0 28vw;
+	}
+
+}

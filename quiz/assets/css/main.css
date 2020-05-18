@@ -1,0 +1,37 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 10px;
+	font-family:'Noto Sans JP';
+	width: 100vw;
+	overflow: hidden;
+}
+#wrapper{
+	padding: 5px 20px;
+	width: calc(100vw - 40px);
+}
+header{
+	text-align: center;
+	height: 20px;
+}
+#title{
+	width: 100%;
+	height: 25px;
+	background-color: #ddd;
+	font-size: 20px;
+	padding: 20px 0;
+	margin-bottom:10px;
+	text-align: center;
+}
+#call-wrapper{
+	width: 100%;
+	height: 300px;
+	background-color: #ddd;
+	text-align: center;
+	margin-bottom: 10px;
+}
+#column-wrapper{
+	width: calc(100% - 2px);
+	height: 500px;
+	border: 1px solid #ccc;
+}
